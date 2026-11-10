@@ -1,0 +1,47 @@
+{
+  "capture_index": 0,
+  "capture_backend": "any",
+  "serial_port": "",
+  "serial_baud": 115200,
+  "detect_interval_ms": 250,
+  "hud_ignore_top": 100,
+  "cast_cooldown_s": 0.8,
+  "monsters": [
+    {
+      "name": "skeleton",
+      "file": "skeleton.png",
+      "key": "A",
+      "enabled": true,
+      "threshold": 0.8
+    }
+  ],
+  "hp": {
+    "enabled": false,
+    "x": 467,
+    "y": 778,
+    "w": 165,
+    "h": 16,
+    "color": "red",
+    "ratio_threshold": 0.3,
+    "key": "SHIFT",
+    "cooldown_s": 2.0
+  },
+  "mp": {
+    "enabled": false,
+    "x": 635,
+    "y": 778,
+    "w": 165,
+    "h": 16,
+    "color": "blue",
+    "ratio_threshold": 0.3,
+    "key": "SHIFT",
+    "cooldown_s": 2.0
+  },
+  "sim": {
+    "enabled": true,
+    "min_interval_s": 8.0,
+    "max_interval_s": 20.0,
+    "quiet_after_cast_s": 3.0,
+    "actions": ["LEFT", "RIGHT", "JUMP"]
+  }
+}
